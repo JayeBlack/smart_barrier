@@ -1,3 +1,5 @@
+# apps/vehicles/admin.py
 from django.contrib import admin
+from .models import CheckpointLog
 
-# Register your models here.
+admin.site.register(CheckpointLog)
